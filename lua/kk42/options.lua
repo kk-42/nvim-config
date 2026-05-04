@@ -8,6 +8,12 @@ vim.o.wrap = false
 vim.o.cursorline = true
 vim.o.termguicolors = true
 
+
+vim.diagnostic.enable = true
+vim.diagnostic.config({
+        virtual_lines = true,
+})
+
 vim.cmd('syntax enable')
 vim.cmd('filetype plugin indent on')
 

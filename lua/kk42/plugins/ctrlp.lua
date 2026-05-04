@@ -1,4 +1,4 @@
--- ~/.config/nvim/lua/kk42/plugins/colorscheme.lua
+-- ~/.config/nvim/lua/kk42/plugins/ctrlp.lua
 
 return {
     "ctrlpvim/ctrlp.vim",
